@@ -30,7 +30,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build"
+   "deploy": "gh-pages -d build",
+   "gadd": "git add -A",
+   "gcm": "git commit -m",
+   "gp": "git push origin"
+
   },
   "eslintConfig": {
     "extends": [
