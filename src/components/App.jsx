@@ -10,7 +10,6 @@ import transactionList from '../data/transaction.json';
 export default function App() {
   return (
     <div>
-      {' '}
       <Profile user={user} />
       <Statistics title="Upload stats" stats={statData} />
       <FriendList list={friendData} />
