@@ -1,0 +1,11 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}

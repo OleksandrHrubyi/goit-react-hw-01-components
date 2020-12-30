@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: teal;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid black;
+  color: aliceblue;
+}
+
+.label {
+  padding: 10px;
+  background-color: cornflowerblue;
+}
+
+.percentage {
+  padding: 10px;
+}

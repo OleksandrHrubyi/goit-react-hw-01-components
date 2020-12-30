@@ -1,0 +1,15 @@
+.profile {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+
+.avatar {
+  width: 100%;
+  display: block;
+}
+
+.name {
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}

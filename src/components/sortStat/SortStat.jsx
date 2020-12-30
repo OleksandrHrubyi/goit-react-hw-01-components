@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types';
+import style from '../sortStat/SortStat.module.css';
 
 export default function SortStat({ stats }) {
   return (
-    <ul className="stat-list">
+    <ul className={style.list}>
       {stats.map(el => {
         return (
-          <li className="item" key={el.id}>
-            <span className="label">{el.label}</span>
-            <span className="percentage">{el.percentage}</span>
+          <li className={style.item} key={el.id}>
+            <span className={style.label}>{el.label}</span>
+            <span className={style.percentage}>{el.percentage}</span>
           </li>
         );
       })}

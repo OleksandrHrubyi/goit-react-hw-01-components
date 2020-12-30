@@ -1,0 +1,26 @@
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: teal;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.label {
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+.quantity {
+  font-size: larger;
+  color: white;
+  padding: 10px;
+}
